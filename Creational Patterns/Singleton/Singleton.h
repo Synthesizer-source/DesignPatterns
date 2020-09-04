@@ -1,6 +1,8 @@
 #ifndef SINGLETON_H
 #define SINGLETON_H
-
+/*
+	--> Singleton pattern provide only one instance class instance while global access from everywhere.
+*/
 class Singleton
 {
 private:

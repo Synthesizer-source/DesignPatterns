@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{D872D7E8-9276-4768-9271-ADAA9F72F4D1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Singleton", "Creational Patterns\Singleton\Singleton.vcxproj", "{9C63696E-75CC-455D-ACC5-54D143D027EC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Singleton", "Singleton\Singleton.vcxproj", "{9C63696E-75CC-455D-ACC5-54D143D027EC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Builder", "Creational Patterns\Builder\Builder.vcxproj", "{52E6F837-6F13-4038-9138-4F1F832E5690}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +23,17 @@ Global
 		{9C63696E-75CC-455D-ACC5-54D143D027EC}.Release|x64.Build.0 = Release|x64
 		{9C63696E-75CC-455D-ACC5-54D143D027EC}.Release|x86.ActiveCfg = Release|Win32
 		{9C63696E-75CC-455D-ACC5-54D143D027EC}.Release|x86.Build.0 = Release|Win32
+		{52E6F837-6F13-4038-9138-4F1F832E5690}.Debug|x64.ActiveCfg = Debug|x64
+		{52E6F837-6F13-4038-9138-4F1F832E5690}.Debug|x64.Build.0 = Debug|x64
+		{52E6F837-6F13-4038-9138-4F1F832E5690}.Debug|x86.ActiveCfg = Debug|Win32
+		{52E6F837-6F13-4038-9138-4F1F832E5690}.Debug|x86.Build.0 = Debug|Win32
+		{52E6F837-6F13-4038-9138-4F1F832E5690}.Release|x64.ActiveCfg = Release|x64
+		{52E6F837-6F13-4038-9138-4F1F832E5690}.Release|x64.Build.0 = Release|x64
+		{52E6F837-6F13-4038-9138-4F1F832E5690}.Release|x86.ActiveCfg = Release|Win32
+		{52E6F837-6F13-4038-9138-4F1F832E5690}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{9C63696E-75CC-455D-ACC5-54D143D027EC} = {D872D7E8-9276-4768-9271-ADAA9F72F4D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {796EED8B-393A-4792-B79D-9DA3BDC3508B}

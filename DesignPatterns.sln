@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AbstractFactory", "Creation
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adapter", "Structural Patterns\Adapter\Adapter.vcxproj", "{C7E74C40-85EE-45DD-AA61-AD10357E8776}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bridge", "Structural Patterns\Bridge\Bridge.vcxproj", "{D7680041-D32C-4CE4-9E44-2E48406D7595}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{C7E74C40-85EE-45DD-AA61-AD10357E8776}.Release|x64.Build.0 = Release|x64
 		{C7E74C40-85EE-45DD-AA61-AD10357E8776}.Release|x86.ActiveCfg = Release|Win32
 		{C7E74C40-85EE-45DD-AA61-AD10357E8776}.Release|x86.Build.0 = Release|Win32
+		{D7680041-D32C-4CE4-9E44-2E48406D7595}.Debug|x64.ActiveCfg = Debug|x64
+		{D7680041-D32C-4CE4-9E44-2E48406D7595}.Debug|x64.Build.0 = Debug|x64
+		{D7680041-D32C-4CE4-9E44-2E48406D7595}.Debug|x86.ActiveCfg = Debug|Win32
+		{D7680041-D32C-4CE4-9E44-2E48406D7595}.Debug|x86.Build.0 = Debug|Win32
+		{D7680041-D32C-4CE4-9E44-2E48406D7595}.Release|x64.ActiveCfg = Release|x64
+		{D7680041-D32C-4CE4-9E44-2E48406D7595}.Release|x64.Build.0 = Release|x64
+		{D7680041-D32C-4CE4-9E44-2E48406D7595}.Release|x86.ActiveCfg = Release|Win32
+		{D7680041-D32C-4CE4-9E44-2E48406D7595}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
